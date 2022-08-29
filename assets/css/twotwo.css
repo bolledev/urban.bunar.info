@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "IBM Plex Mono", monospace;
+    word-spacing: -50%;
+    display: block;
+    background-color: #9BC1CE;
+    min-height: 100vh;
+    position: relative;
+}
+.wrapper {
+    min-height: 100vh;
+    background: url('../images/2bkgnd.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.info {
+    width: 7rem;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.info img {
+    width: 4rem;
+    margin: 0 0 0 3rem;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+.content {
+    margin: 0;
+    padding: 0 0 0 7rem;
+    max-width: 34rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    line-height: 70%;
+    font-size: 2rem;
+}
+.content.radionica {
+    font-size: 1.67rem;
+}
+.gray {
+    color: #333 !important;
+}
+.info.pesak img, .info.dev img {
+    width: 100%;
+    margin: 0;
+}
+.content.kobasice {
+    font-size: 1.2rem;
+    color: #fff;
+}
+.content.gmap {
+    font-size: 1.82rem;
+}
+.content.prijatelji {
+    font-size: 1.2rem;
+}
