@@ -9,7 +9,7 @@ body, html {
     min-height: 100vh;
     position: relative;
 }
-.wrapper {
+.wrapperb {
     min-height: 100vh;
     background: url('../images/2bkgnd.jpg');
     background-position: center center;
@@ -25,6 +25,21 @@ a, a:hover, a:visited, a:active {
     text-decoration: none;
     color: #fff;
 }
+
+/* .wrapperc {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    clear: right;
+    position: relative;
+    margin: 0 0 0 5%
+}
+.wrapperc.date {
+    margin-bottom: 0.4rem;
+}
+.wrapperc.gmap {
+    margin-bottom: 0.4rem;
+} */
 
 
 
@@ -73,4 +88,54 @@ a, a:hover, a:visited, a:active {
 }
 .content.prijatelji {
     font-size: 1.2rem;
+}
+
+
+
+
+@media (min-width: 640px){
+    .info {
+        width: 10rem;
+    }
+    .info img {
+        width: 6rem;
+        margin: 0 0 0 4rem;
+    }
+    .content {
+        margin: 0;
+        padding: 0 0 0 10rem;
+        max-width: 55rem;
+        font-size: 3rem;
+    }
+    .content.radionica {
+        font-size: 2.5em;
+    }
+    .content.kobasice {
+        font-size: 1.8rem;
+    }
+    .content.gmap {
+        font-size: 2.7rem;
+    }
+    .content.prijatelji {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 768px){
+    .wrapperb {
+        width: 90%;
+        padding-left: 10%;
+    }
+}
+
+@media (min-width: 1024px){
+
+...
+
+}
+
+@media (min-width: 1200px){
+
+...
+
 }
